@@ -1,3 +1,10 @@
+/*
+ * Autores
+ * Rennã Tiedt
+ * Richard Curbani Alfarth * 
+ * 
+ * */
+
 package trabalho1;
 
 import java.io.IOException;
@@ -16,7 +23,7 @@ public class Server {
 		ServerSocket serverSocket = new ServerSocket(1600);
 		Date now = new Date();
 		//Socket client = server.accept();
-		String pergunta = "Você deseja saber a [1]-Data ou a [2]-Hora?"; 
+		//String pergunta = "Você deseja saber a [1]-Data ou a [2]-Hora?"; 
 	    do {
 	    	System.out.println("Aguardando conexão...!");
 	    	java.net.Socket socket = serverSocket.accept();
@@ -28,7 +35,6 @@ public class Server {
 	    	String hora = new SimpleDateFormat("HH:mm:ss").format(now);
 	    	do {
 	    		dado = input.read();
-	    		System.out.println(dado + " Valor de entrada");
 	    		if(dado == 1) {
 	    			System.out.println("Data: " + data);
 	    			saida.writeUTF(data);
@@ -36,17 +42,16 @@ public class Server {
 	    			
 	    		}
 	    		if(dado == 2) {
-	    			System.out.println("teste");
 	    			System.out.println("Hora: "+hora);
 	    			saida.writeUTF(hora);
 		    		saida.flush();
 	    		}
-	    		if(dado > -1) {
-	    			System.out.println("READ: " + dado);
+	    		if(dado == 3) {
+	    			saida.flush();
 	    		}
 	    	}while(dado > -1);
 	    	socket.close();
-	    	System.out.println("Cliente disconectado. ");
+	    	System.out.println("Server Desconectado. ");
 	    }while (true);
 	}
 }
