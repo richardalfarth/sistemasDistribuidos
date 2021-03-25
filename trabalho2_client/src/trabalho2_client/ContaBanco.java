@@ -1,4 +1,12 @@
-package trabalho2;
+/*
+ * Autores: Rennã Tiedt
+ * 	 	  Richard Curbani Alfarth
+ * 
+ * 
+ * */
+
+package trabalho2_client;
+
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

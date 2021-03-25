@@ -1,3 +1,3 @@
-module trabalho2_server {
+/*module trabalho2_server {
 	requires java.rmi;
-}
+}*/

@@ -1,3 +1,10 @@
+/*
+ * Autores: Rennã Tiedt
+ * 	 	  Richard Curbani Alfarth
+ * 
+ * 
+ * */
+
 package trabalho2_server;
 
 import java.rmi.Remote;
@@ -11,5 +18,7 @@ public interface ContaBanco extends Remote{
 	public void setNumero(String numero) throws RemoteException; 
 	public void depositar(double valor) throws RemoteException;
 	public void sacar(double valor) throws RemoteException;
+	public ContaBanco getTitular() throws RemoteException;
+	public void setTitular(ContaBanco titular) throws RemoteException;
 
 }

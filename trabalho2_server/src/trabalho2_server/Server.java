@@ -1,3 +1,10 @@
+/*
+ * Autores: Rennã Tiedt
+ * 	 	  Richard Curbani Alfarth
+ * 
+ * 
+ * */
+
 package trabalho2_server;
 
 import java.rmi.RemoteException;
