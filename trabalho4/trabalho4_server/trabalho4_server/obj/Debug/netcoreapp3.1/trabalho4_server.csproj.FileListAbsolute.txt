@@ -1,0 +1,16 @@
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho4_server\bin\Debug\netcoreapp3.1\trabalho4_server.exe
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho4_server\bin\Debug\netcoreapp3.1\trabalho4_server.deps.json
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho4_server\bin\Debug\netcoreapp3.1\trabalho4_server.runtimeconfig.json
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho4_server\bin\Debug\netcoreapp3.1\trabalho4_server.runtimeconfig.dev.json
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho4_server\bin\Debug\netcoreapp3.1\trabalho4_server.dll
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho4_server\bin\Debug\netcoreapp3.1\trabalho4_server.pdb
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho4_server\obj\Debug\netcoreapp3.1\trabalho4_server.csprojAssemblyReference.cache
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho4_server\obj\Debug\netcoreapp3.1\trabalho4_server.AssemblyInfoInputs.cache
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho4_server\obj\Debug\netcoreapp3.1\trabalho4_server.AssemblyInfo.cs
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho4_server\obj\Debug\netcoreapp3.1\trabalho4_server.csproj.CoreCompileInputs.cache
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho4_server\obj\Debug\netcoreapp3.1\trabalho4_server.dll
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho4_server\obj\Debug\netcoreapp3.1\trabalho4_server.pdb
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho4_server\obj\Debug\netcoreapp3.1\trabalho4_server.genruntimeconfig.cache
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho4_server\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho4_server\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho4_server\obj\Debug\netcoreapp3.1\trabalho4_server.csproj.CopyComplete

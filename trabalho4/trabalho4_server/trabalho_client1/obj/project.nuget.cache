@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yxIyn8hC3J7RItIxCSctwqK+E+myAiAaKA9fn/a6Zdy3KzZfF2zE9t24TKJUT0Nus/6bnEiJf6KjGmtBEeRenA==",
+  "success": true,
+  "projectFilePath": "D:\\Furb\\Sistemas Distribuídos\\sistemasDistribuidos\\trabalho4\\trabalho4_server\\trabalho_client1\\trabalho_client1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Richard\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\Richard\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Richard\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
