@@ -1,0 +1,169 @@
+<br>
+<app-titulo [titulo]="titulo"></app-titulo>
+<div class="d-flex">
+  <div class="form-inline mr-auto">
+    <div class="form-group mb-2">
+      <label class="mr-2">Filtro:</label> <input type="text" class="form-control mr-2" placeholder="buscar"
+        [(ngModel)]="filtroLista">
+    </div>
+  </div>
+  <div>
+    <button class="btn bt-outline-primary" (click)="novaEmpresa(template)">Nova Empresa>
+      <i class="fa fa-plus-circle"></i>&nbsp;
+    </button>
+  </div>
+</div>
+<h3>Filtro: {{filtroLista}}</h3>
+<table class="table table-striped">
+  <thead class="thead-light">
+    <tr>
+      <th>Empresa</th>
+      <th>CNPJ</th>
+      <th>UF</th>
+      <th colspan="2">Opções</th>
+    </tr>
+  </thead>
+  <tbody *ngIf="empresas && empresas.length">
+    <tr *ngFor="let empresa of empresasFiltradas">
+      <td>{{empresa.nomeFantasia}}</td>
+      <td>{{empresa.cnpj}}</td>
+      <td>{{ obterTipoEstado (empresa.uf)}}</td>
+      <td>
+        <div class="btn-group">
+          <button class="btn btn-sm btn-success" (click)="editarEmpresa(empresa,template)" tooltip="Editar">
+            <i class="fa fa-edit"></i>
+          </button>
+          <button class="btn btn-sm btn-danger" (click)="excluirEmpresa(empresa,confirm)" tooltip="Excluir">
+            <i class="fa fa-eraser"></i>
+          </button>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+  <tfoot *ngIf="!empresas">
+    <tr colspan="7" class="text-center">
+      <h4>
+        Nenhuma empresa encontrada
+      </h4>
+    </tr>
+  </tfoot>
+</table>
+
+<div bsModal #template="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="dialog-sizes-name1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 id="dialog-sizes-name1" class="modal-title pull-left">Cadastro Resumido</h4>
+        <button type="button" class="close pull-right" (click)="template.hide()" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="registerForm">
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <label>Nome Fantasia</label>
+              <input type="text" class="form-control"
+                [ngClass]="{'is-invalid': registerForm.get('nomeFantasia').errors && registerForm.get('nomeFantasia').touched}"
+                formControlName="nomeFantasia" placeholder="Insira o Nome Fantasia">
+              <div *ngIf="registerForm.get('nomeFantasia').hasError('required') && registerForm.get('nomeFantasia').touched"
+                class="invalid-feedback">
+                O Nome Fantasia é obrigatório.
+              </div>
+              <div *ngIf="registerForm.get('nomeFantasia').hasError('minlength') && registerForm.get('nomeFantasia').touched"
+                class="invalid-feedback">
+                O Nome deve ter no mínimo 4 Caracters.
+              </div>
+              <div *ngIf="registerForm.get('nomeFantasia').hasError('maxlength') && registerForm.get('nomeFantasia').touched"
+                class="invalid-feedback">
+                O Nome deve ter no máximo 50 Caracters.
+              </div>
+            </div>
+            <div class="form-group col-md-4">
+              <label>CNPJ</label>
+              <input  mask="00.000.000/0000-00" class="form-control" formControlName="cnpj"
+                [ngClass]="{'is-invalid': registerForm.get('cnpj').errors && registerForm.get('cnpj').touched}"
+                placeholder="Insira o seu CNPJ">
+              <div *ngIf="registerForm.get('cnpj').hasError('required') && registerForm.get('cnpj').touched"
+              class="invalid-feedback">>
+                O CNPJ é obrigatório.
+              </div>
+              <div *ngIf="registerForm.get('cnpj').hasError('required') && registerForm.get('cnpj').touched"
+                class="invalid-feedback">>
+                CNPJ deve ser válido.
+              </div>
+            </div>
+            <div class="form-group col-md-4">
+              <label>UF</label>
+              <select id="uf" name="uf" class="form-control" formControlName="uf" placeholder="Estado">
+                <option value="null">Selecione o Estado</option>
+                <option value="1">Acre</option>
+                <option value="2">Alagoas</option>
+                <option value="3">Amapá</option>
+                <option value="4">Amazonas</option>
+                <option value="5">Bahia</option>
+                <option value="6">Ceará</option>
+                <option value="7">Distrito Federal</option>
+                <option value="8">Espírito Santo</option>
+                <option value="9">Goiás</option>
+                <option value="10">Maranhão</option>
+                <option value="11">Mato Grosso</option>
+                <option value="12">Mato Grosso do Sul</option>
+                <option value="13">Minas Gerais</option>
+                <option value="14">Pará</option>
+                <option value="15">Paraíba</option>
+                <option value="16">Paraná</option>
+                <option value="17">Pernambuco</option>
+                <option value="18">Piauí</option>
+                <option value="19">Rio de Janeiro</option>
+                <option value="20">Rio Grande do Norte</option>
+                <option value="21">Rio Grande do Sul</option>
+                <option value="22">Rondônia</option>
+                <option value="23">Roraima</option>
+                <option value="24">Santa Catarina</option>
+                <option value="25">São Paulo</option>
+                <option value="26">Sergipe</option>
+                <option value="27">Tocantins</option>
+                <option value="28">Estrangeiro</option>
+            </select>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" (click)="template.hide()">
+          Fechar
+        </button>
+        <button class="btn btn-primary ml-auto" [disabled]="!registerForm.valid" (click)="salvarAlteracao(template)">
+          Salvar Alterações
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div bsModal #confirm="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="dialog-sizes-name1">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title pull-left">
+          Deletando Cliente
+        </h4>
+        <button type="button" class="close pull-right" (click)="confirm.hide()" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>{{bodyDeletarEmpresa}}</p>
+      </div>
+      <div class="modal-footer btn-group d-flex">
+        <button type="button" class="btn btn-outline-primary" (click)="confirm.hide()">
+          CENCELAR
+        </button>
+        <button type="button" class="btn btn-outline-danger" (click)="confirmeDelete(confirm)">
+          DELETAR
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
