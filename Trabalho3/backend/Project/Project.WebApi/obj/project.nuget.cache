@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pk2U7fM19EalpH12D+4NKorFJTQrPs1N2iqed2lqP5oZLzs/GzSN0qlLLF23iR9d0gcc1dlkHHUQlNC1cnxFXg==",
+  "dgSpecHash": "r8AV18TUdW4xhzFokhDK2F6gviINL3K2lHpi/l6k5M5Q+ukQYKyJE844ygv2R7muJaot8nqi8ixI9fMbFeoUXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\trabalho01\\backend\\Project\\Project.WebApi\\Project.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\Trabalho3\\backend\\Project\\Project.WebApi\\Project.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TIEDT\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\TIEDT\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

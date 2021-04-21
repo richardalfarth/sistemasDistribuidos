@@ -8,7 +8,7 @@ import { Empresa } from '../_modules/Empresa';
   providedIn: 'root'
 })
 export class EmpresaService {
-    baseUrl = "https://localhost:5001/empresa";
+    baseUrl = "https://sistemasdistribuidosfurb.azurewebsites.net/empresa";
     constructor(private http: HttpClient) { }
 
     adicionarEmpresa(model: Empresa): Observable<any> {

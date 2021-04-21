@@ -10066,11 +10066,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\trabalho01\\backend\\Project\\Project.WebApi\\Project.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\Trabalho3\\backend\\Project\\Project.WebApi\\Project.WebApi.csproj",
       "projectName": "Project.WebApi",
-      "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\trabalho01\\backend\\Project\\Project.WebApi\\Project.WebApi.csproj",
+      "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\Trabalho3\\backend\\Project\\Project.WebApi\\Project.WebApi.csproj",
       "packagesPath": "C:\\Users\\TIEDT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\trabalho01\\backend\\Project\\Project.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\Trabalho3\\backend\\Project\\Project.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -10092,11 +10092,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\trabalho01\\backend\\Project\\Project.Domain\\Project.Domain.csproj": {
-              "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\trabalho01\\backend\\Project\\Project.Domain\\Project.Domain.csproj"
+            "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\Trabalho3\\backend\\Project\\Project.Domain\\Project.Domain.csproj": {
+              "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\Trabalho3\\backend\\Project\\Project.Domain\\Project.Domain.csproj"
             },
-            "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\trabalho01\\backend\\Project\\Project.Repository\\Project.Repository.csproj": {
-              "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\trabalho01\\backend\\Project\\Project.Repository\\Project.Repository.csproj"
+            "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\Trabalho3\\backend\\Project\\Project.Repository\\Project.Repository.csproj": {
+              "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\Trabalho3\\backend\\Project\\Project.Repository\\Project.Repository.csproj"
             }
           }
         }

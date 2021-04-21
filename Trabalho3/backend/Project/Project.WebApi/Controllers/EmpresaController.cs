@@ -64,16 +64,14 @@ namespace Project.WebAPI.Controllers
         ///
         ///     POST /Empresa
         ///     {
-        ///        "employee_Name": "Darth Vader",
-        ///        "employee_Salary": 2500,
-        ///        "employee_Age": "59",
-        ///        "profile_Image": "",
-        ///        "userId": "youUserID"
+        ///        "NomeFantasia": "Darth Vader",
+        ///        "CNPJ": "76360437000106",
+        ///        "UF": "24",
         ///     }
         ///     
         ///
         /// </remarks>
-      
+
         [HttpPost]
         public async Task<IActionResult> Post(EmpresaDto model)
         {
@@ -85,7 +83,7 @@ namespace Project.WebAPI.Controllers
 
                 if (await _repo.SaveChangesAsync())
                 {
-                    return Created($"/api/evento/", _mapper.Map<EmpresaDto>(evento));
+                    return Created($"/api/Empresa/", _mapper.Map<EmpresaDto>(evento));
                 }
             }
             catch (System.Exception ex)
@@ -108,11 +106,9 @@ namespace Project.WebAPI.Controllers
         ///     PUT /Empresa
         ///     {
         ///        "Id": "8",
-        ///        "employee_Name": "Darth Vader",
-        ///        "employee_Salary": 2500,
-        ///        "employee_Age": "59",
-        ///        "profile_Image": "",
-        ///        "userId": "youUserID"
+        ///        "NomeFantasia": "Darth Vader",
+        ///        "CNPJ": "76360437000106",
+        ///        "UF": "24",
         ///     }
         ///     
         ///
