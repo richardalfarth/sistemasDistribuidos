@@ -1,0 +1,16 @@
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\trabalho_client1.exe
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\trabalho_client1.deps.json
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\trabalho_client1.runtimeconfig.json
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\trabalho_client1.runtimeconfig.dev.json
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\trabalho_client1.dll
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\trabalho_client1.pdb
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.csprojAssemblyReference.cache
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.AssemblyInfoInputs.cache
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.AssemblyInfo.cs
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.csproj.CoreCompileInputs.cache
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.csproj.CopyComplete
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.dll
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.pdb
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.genruntimeconfig.cache
