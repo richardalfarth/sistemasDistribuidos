@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "QkCWBhq49h2WXgZKTgv/M4yr6kwaI/8hD8FJbAHsoeNneB8by/dX6kLuc83c5DQ/PAP79+qzvwGj8x4hnd+Ozw==",
+  "dgSpecHash": "R/XXxHNN/QhDk0E8iDXLs53yndd+8GKGPPoBSElFeWkDSsRrMPDqNKB0BbVwkPhIGzH6mijq2I6UKuzPpE/A5A==",
   "success": true,
-  "projectFilePath": "D:\\Furb\\Sistemas Distribuídos\\sistemasDistribuidos\\trabalho4\\trabalho4_server\\trabalho4_server\\trabalho4_server.csproj",
+  "projectFilePath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho4\\trabalho4_server\\trabalho4_server\\trabalho4_server.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Richard\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
-    "C:\\Users\\Richard\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\Richard\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+    "C:\\Users\\TIEDT\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\TIEDT\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\TIEDT\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }
