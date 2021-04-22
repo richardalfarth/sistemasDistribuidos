@@ -28,7 +28,7 @@ namespace trabalho_client1
             IModel channel = connection.CreateModel();
             for (int i = 0; i < NUMBER_OF_WORKROLES; i++)
             {
-                Task.Factory.StartNew(() =>
+                var teste = Task.Factory.StartNew(() =>
                 {
                     lock (channel)
                     {
@@ -36,8 +36,8 @@ namespace trabalho_client1
                         consumer.Received += (sender, ea) =>
                         {
                             var body = ea.Body.ToArray();
-                            //var brokerMessage = Encoding.Default.GetString(ea.Body);
-                            Console.WriteLine($"Mensagem recebida com o valor: {body}");
+                            var brokerMessage = Encoding.Default.GetString(body);
+                            Console.WriteLine($"Mensagem recebida com o valor: {brokerMessage}");
 
                             //Diz ao RabbitMQ que a mensagem foi lida com sucesso pelo consumidor
                             channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: true);

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\trabalho_client1.exe
 D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\trabalho_client1.deps.json
 D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\trabalho_client1.runtimeconfig.json
@@ -14,3 +15,21 @@ D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\t
 D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.dll
 D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.pdb
 D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.genruntimeconfig.cache
+=======
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\trabalho_client1.exe
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\trabalho_client1.deps.json
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\trabalho_client1.runtimeconfig.json
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\trabalho_client1.runtimeconfig.dev.json
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\trabalho_client1.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\trabalho_client1.pdb
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.csprojAssemblyReference.cache
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.AssemblyInfoInputs.cache
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.AssemblyInfo.cs
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.csproj.CoreCompileInputs.cache
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.csproj.CopyComplete
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.pdb
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho4\trabalho4_server\trabalho_client1\obj\Debug\netcoreapp3.1\trabalho_client1.genruntimeconfig.cache
+>>>>>>> 1ef1d64e160efb5e9521221c382f8ad70ca6e7cb
