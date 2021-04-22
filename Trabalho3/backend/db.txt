@@ -14,4 +14,6 @@ para rodar o projeto, abrir o cmd e ir para a pasta da WebApi e digitar o comand
 =========================================
 
 no frontend no Empresa.Service também apontamos para o azure, caso queira pegar o backend local, alterar para " https://localhost:5001/empresa" assim ele irá buscar o backend local.
+ah não esquece de dar o npm install no projeto!
+entra na pasta do front, cmd, npm install padrao!
 

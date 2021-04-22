@@ -13,11 +13,9 @@
             
                  POST /Empresa
                  {
-                    "employee_Name": "Darth Vader",
-                    "employee_Salary": 2500,
-                    "employee_Age": "59",
-                    "profile_Image": "",
-                    "userId": "youUserID"
+                    "NomeFantasia": "Darth Vader",
+                    "CNPJ": "76360437000106",
+                    "UF": "24",
                  }
                  
             
@@ -34,11 +32,9 @@
                  PUT /Empresa
                  {
                     "Id": "8",
-                    "employee_Name": "Darth Vader",
-                    "employee_Salary": 2500,
-                    "employee_Age": "59",
-                    "profile_Image": "",
-                    "userId": "youUserID"
+                    "NomeFantasia": "Darth Vader",
+                    "CNPJ": "76360437000106",
+                    "UF": "24",
                  }
                  
             
