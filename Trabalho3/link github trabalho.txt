@@ -1,0 +1,3 @@
+https://github.com/richardalfarth/sistemasDistribuidos/tree/master/Trabalho3
+
+professor, entra na pasta backend e vai ter um txt com o nome db, por favor leia a instrução lá!
