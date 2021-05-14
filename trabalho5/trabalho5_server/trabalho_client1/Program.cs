@@ -13,7 +13,7 @@ namespace trabalho_client1
             string hostName = "localhost";
             string userName = "guest";
             string password = "guest";
-            string queueName = "trabalho4";
+            string queueName = "trabalho5";
             const int NUMBER_OF_WORKROLES = 3;
             //Cria a conexão com o RabbitMq
             var factory = new ConnectionFactory()

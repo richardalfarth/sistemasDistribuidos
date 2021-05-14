@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\trabalho05\\trabalho4\\trabalho4_server\\trabalho5_server\\trabalho5_server.csproj": {}
+    "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho5\\trabalho5_server\\trabalho5_server\\trabalho5_server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\trabalho05\\trabalho4\\trabalho4_server\\trabalho5_server\\trabalho5_server.csproj": {
+    "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho5\\trabalho5_server\\trabalho5_server\\trabalho5_server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\trabalho05\\trabalho4\\trabalho4_server\\trabalho5_server\\trabalho5_server.csproj",
+        "projectUniqueName": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho5\\trabalho5_server\\trabalho5_server\\trabalho5_server.csproj",
         "projectName": "trabalho5_server",
-        "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\trabalho05\\trabalho4\\trabalho4_server\\trabalho5_server\\trabalho5_server.csproj",
+        "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho5\\trabalho5_server\\trabalho5_server\\trabalho5_server.csproj",
         "packagesPath": "C:\\Users\\TIEDT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\trabalho05\\trabalho4\\trabalho4_server\\trabalho5_server\\obj\\",
+        "outputPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho5\\trabalho5_server\\trabalho5_server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

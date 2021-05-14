@@ -13,7 +13,7 @@ namespace trabalho_client1
             string hostName = "localhost";
             string userName = "guest";
             string password = "guest";
-            string queueName = "trabalho4";
+            string queueName = "prova2";
             const int NUMBER_OF_WORKROLES = 3;
             //Cria a conexão com o RabbitMq
             var factory = new ConnectionFactory()
@@ -26,26 +26,27 @@ namespace trabalho_client1
             IConnection connection = factory.CreateConnection();
             //cria a canal de comunicação com a rabbit mq
             IModel channel = connection.CreateModel();
-            for (int i = 0; i < NUMBER_OF_WORKROLES; i++)
+            var teste = Task.Factory.StartNew(() =>
             {
-                var teste = Task.Factory.StartNew(() =>
+                lock (channel)
                 {
-                    lock (channel)
+                    var consumer = new EventingBasicConsumer(channel);
+                    consumer.Received += (sender, ea) =>
                     {
-                        var consumer = new EventingBasicConsumer(channel);
-                        consumer.Received += (sender, ea) =>
+                        var number = Convert.ToInt32(ea.Body.ToArray());
+                        if (number == 2)
                         {
                             Console.WriteLine($"Mensagem recebida com o valor: {Encoding.Default.GetString(ea.Body.ToArray())}");
 
-                            //Diz ao RabbitMQ que a mensagem foi lida com sucesso pelo consumidor
-                            channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: true);
-                        };
+                                //Diz ao RabbitMQ que a mensagem foi lida com sucesso pelo consumidor
+                                channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: true);
+                        }
+                    };
                         //ConsumerTags = Guid.NewGuid().ToString(); // Tag de identificação do consumidor no RabbitMQ
                         //Registra os consumidor no RabbitMQ
                         String ConsumerTags = channel.BasicConsume(queueName, false, consumer: consumer);
-                    }
-                });
-            }
+                }
+            });
             Console.Read();
         }
     }

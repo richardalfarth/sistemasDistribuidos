@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ITHhzHQUlUV9JnQ6G9VMUphgA/ugH/GuClLgc6+dM2lmJyEFL23XGT8RGFgj0SRLJ98UnPx89OiC4gpK681AAg==",
+  "dgSpecHash": "oujAFUP5fK3dqnSeQdVEhPWPEYsaX9Fafybai+KNI4AsXUzE+kpeYAagsWUynFTYvgZffIve1YbZjgI011i8yw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\trabalho05\\trabalho4\\trabalho4_server\\trabalho5_server\\trabalho5_server.csproj",
+  "projectFilePath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho5\\trabalho5_server\\trabalho5_server\\trabalho5_server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TIEDT\\.nuget\\packages\\appccelerate.eventbroker\\4.0.0\\appccelerate.eventbroker.4.0.0.nupkg.sha512",
     "C:\\Users\\TIEDT\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
