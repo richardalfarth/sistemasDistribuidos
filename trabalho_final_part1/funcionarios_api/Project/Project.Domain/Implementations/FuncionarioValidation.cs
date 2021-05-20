@@ -2,7 +2,7 @@
 {
     public static class FuncionarioValidation
     {
-        public static string ValidarCNPJEmpresa(string cpf)
+        public static string ValidarCPFFuncionario(string cpf)
         {
             if (!ValidaCPF.IsCpf(cpf))
             {

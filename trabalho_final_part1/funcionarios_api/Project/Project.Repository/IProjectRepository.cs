@@ -14,5 +14,6 @@ namespace Project.Repository
         Task<Funcionario[]> GetAllFuncionarioAsync();
         Task<Funcionario> GetFuncionarioAsyncById(int codigo);
         Task<Funcionario[]> GetFuncionariosAsyncByCargo(CargoFuncionario cargo);
+        Task<Funcionario> GetFuncionariosAsyncByCpf(String cpf);
     }
 }

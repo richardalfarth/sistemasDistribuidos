@@ -57,5 +57,12 @@ namespace Project.Repository
             .Where(c => c.CargoDoFuncionario == cargo);
             return await query.ToArrayAsync();
         }
+        public async Task<Funcionario> GetFuncionariosAsyncByCpf(String cpf)
+        {
+            IQueryable<Funcionario> query = _context.Funcionario;
+            query = query.AsNoTracking().OrderBy(c => c.Codigo)
+            .Where(c => c.CPF == cpf);
+            return await query.FirstOrDefaultAsync();
+        }
     }
 }

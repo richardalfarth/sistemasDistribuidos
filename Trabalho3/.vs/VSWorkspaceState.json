@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend",
+    "\\backend\\Project",
+    "\\backend\\Project\\Project.Domain",
+    "\\backend\\Project\\Project.Domain\\bin",
+    "\\backend\\Project\\Project.Domain\\Implementations",
+    "\\backend\\Project\\Project.WebApi",
+    "\\frontend"
+  ],
+  "SelectedNode": "\\backend\\Project\\Project.Domain\\Implementations\\EmpresaValidation.cs",
+  "PreviewInSolutionExplorer": false
+}

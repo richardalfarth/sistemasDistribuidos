@@ -53,6 +53,24 @@ namespace Project.WebAPI.Controllers
                 return this.StatusCode(StatusCodes.Status500InternalServerError, $"Banco Dados Falhou {ex.Message}");
             }
         }
+        [HttpGet("GetFuncionarioByCPF")]
+        public async Task<IActionResult> GetFuncionarioByCPF(String cpf)
+        {
+            try
+            {
+                if(!FuncionarioValidation.ValidarCPFFuncionario(cpf)){
+                    return this.StatusCode(StatusCodes.Status404InternalServerError, $"CPF não é válido");
+                }
+                var funcionarios = await _repo.GetFuncionariosAsyncByCPF(cpf);
+                var results = _mapper.Map<FuncionarioDto>(funcionarios);
+                
+                return Ok(results);
+            }
+            catch (System.Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, $"Banco Dados Falhou {ex.Message}");
+            }
+        }
 
         [HttpGet("{FuncionarioId}")]
         public async Task<IActionResult> Get(int FuncionarioId)
