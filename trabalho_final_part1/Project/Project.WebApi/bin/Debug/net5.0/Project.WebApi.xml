@@ -4,14 +4,14 @@
         <name>Project.WebApi</name>
     </assembly>
     <members>
-        <member name="M:Project.WebAPI.Controllers.FuncionarioController.Post(Project.WebAPI.Dtos.EmpresaDto)">
+        <member name="M:Project.WebAPI.Controllers.FuncionarioController.Post(Project.WebAPI.Dtos.FuncionarioDto)">
              <summary>
-             Create a new Empresa.
+             Create a new Funcionario.
              </summary>
              <remarks>
              Example:
             
-                 POST /Empresa
+                 POST /Funcionario
                  {
                     "NomeFantasia": "Darth Vader",
                     "CNPJ": "76360437000106",
@@ -21,15 +21,15 @@
             
              </remarks>
         </member>
-        <member name="M:Project.WebAPI.Controllers.FuncionarioController.Put(Project.WebAPI.Dtos.EmpresaDto)">
+        <member name="M:Project.WebAPI.Controllers.FuncionarioController.Put(Project.WebAPI.Dtos.FuncionarioDto)">
              <summary>
-             Put a Empresa.
-             To find out what is the Id, user the GetAllEmpresasByUserId controller, then it will list all your employees
+             Put a Funcionario.
+             To find out what is the Id, user the GetAllFuncionarioByUserId controller, then it will list all your employees
              </summary>
              <remarks>
              Example:
             
-                 PUT /Empresa
+                 PUT /Funcionario
                  {
                     "Id": "8",
                     "NomeFantasia": "Darth Vader",

@@ -9,7 +9,6 @@ namespace Project.Respository
         public ProjectContext(DbContextOptions<ProjectContext> options) : base(options) { }
 
         public DbSet<Funcionario> Funcionario { get; set; }
-        public DbSet<CargoFuncionario> CargoFuncionario { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

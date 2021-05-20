@@ -18,26 +18,6 @@ namespace Project.Repository.Migrations
                 .HasAnnotation("ProductVersion", "5.0.5")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Project.Domain.CargoFuncionario", b =>
-                {
-                    b.Property<int>("Cargo")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Salario")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Cargo");
-
-                    b.ToTable("CargoFuncionario");
-                });
-
             modelBuilder.Entity("Project.Domain.Funcionario", b =>
                 {
                     b.Property<int>("Codigo")
@@ -45,9 +25,15 @@ namespace Project.Repository.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int>("CargoDoFuncionario")
+                        .HasColumnType("int");
+
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Salario")
+                        .HasColumnType("float");
 
                     b.HasKey("Codigo");
 

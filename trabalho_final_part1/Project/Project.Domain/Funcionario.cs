@@ -1,5 +1,4 @@
-﻿using System;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace Project.Domain
@@ -13,9 +12,29 @@ namespace Project.Domain
         [Required(AllowEmptyStrings = false, ErrorMessage = "O nome da é obrigatório.")]
         public string Nome { get; set; }
 
+        [Required(ErrorMessage = "Por Favor Informe o Cargo do Funcionário")]
+        [MinLength(1)]
+        public CargoFuncionario CargoDoFuncionario { get; set; }
+
+        [Required(ErrorMessage = "Por Favor Informe o Salário")]
+        public double Salario { get; set; }
     }
 
-
+    #region
+    public enum CargoFuncionario
+    {
+        Diretor = 1,
+        Gerente,
+        Coordernador,
+        Analista,
+        Desenvolvedor,
+        Suporte,
+        Auxiliar,
+        Estagiario,
+        Cozinheira,
+        Seguranca
+    }
+    #endregion
     #region
     public enum UnidadeFederacaoSigla
     {

@@ -2,14 +2,13 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Project.Domain;
-using Project.Domain.Implementations;
 using Project.Repository;
 using Project.WebAPI.Dtos;
 using System.Threading.Tasks;
 
 namespace Project.WebAPI.Controllers
 {
-    [Route("/empresa")]
+    [Route("/funcionarios")]
     [ApiController]
     public class FuncionarioController : ControllerBase
     {
@@ -23,13 +22,13 @@ namespace Project.WebAPI.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet("GetEmpresas")]
-        public async Task<IActionResult> GetEmpresa()
+        [HttpGet("GetFuncionario")]
+        public async Task<IActionResult> GetFuncionario()
         {
             try
             {
-                var users = await _repo.GetAllFuncionarioAsync();
-                var results = _mapper.Map<EmpresaDto[]>(users);
+                var funcionarios = await _repo.GetAllFuncionarioAsync();
+                var results = _mapper.Map<FuncionarioDto[]>(funcionarios);
 
                 return Ok(results);
             }
@@ -39,13 +38,13 @@ namespace Project.WebAPI.Controllers
             }
         }
 
-        [HttpGet("{EmpresaId}")]
-        public async Task<IActionResult> Get(int EmpresaId)
+        [HttpGet("{FuncionarioId}")]
+        public async Task<IActionResult> Get(int FuncionarioId)
         {
             try
             {
-                var user = await _repo.GetFuncionarioAsyncById(EmpresaId);
-                var results = _mapper.Map<EmpresaDto>(user);
+                var funcionarios = await _repo.GetFuncionarioAsyncById(FuncionarioId);
+                var results = _mapper.Map<FuncionarioDto>(funcionarios);
 
                 return Ok(results);
             }
@@ -55,35 +54,17 @@ namespace Project.WebAPI.Controllers
             }
         }
 
-        // POST
-        /// <summary>
-        /// Create a new Empresa.
-        /// </summary>
-        /// <remarks>
-        /// Example:
-        ///
-        ///     POST /Empresa
-        ///     {
-        ///        "NomeFantasia": "Darth Vader",
-        ///        "CNPJ": "76360437000106",
-        ///        "UF": "24",
-        ///     }
-        ///     
-        ///
-        /// </remarks>
-
         [HttpPost]
-        public async Task<IActionResult> Post(EmpresaDto model)
+        public async Task<IActionResult> Post(FuncionarioDto model)
         {
             try
             {
-                if (!ValidaCNPJ.IsCnpj(model.CNPJ)) return NotFound("CNPJ Inválido");
-                var evento = _mapper.Map<Funcionario>(model);
-                _repo.Add(evento);
+                var funcionario = _mapper.Map<Funcionario>(model);
+                _repo.Add(funcionario);
 
                 if (await _repo.SaveChangesAsync())
                 {
-                    return Created($"/api/Empresa/", _mapper.Map<EmpresaDto>(evento));
+                    return Created($"/api/Funcionario/", _mapper.Map<FuncionarioDto>(funcionario));
                 }
             }
             catch (System.Exception ex)
@@ -95,43 +76,22 @@ namespace Project.WebAPI.Controllers
             return BadRequest();
         }
 
-        // PUT
-        /// <summary>
-        /// Put a Empresa.
-        /// To find out what is the Id, user the GetAllEmpresasByUserId controller, then it will list all your employees
-        /// </summary>
-        /// <remarks>
-        /// Example:
-        ///
-        ///     PUT /Empresa
-        ///     {
-        ///        "Id": "8",
-        ///        "NomeFantasia": "Darth Vader",
-        ///        "CNPJ": "76360437000106",
-        ///        "UF": "24",
-        ///     }
-        ///     
-        ///
-        /// </remarks>
-
-
         [HttpPut]
-        public async Task<IActionResult> Put(EmpresaDto model)
+        public async Task<IActionResult> Put(FuncionarioDto model)
         {
             try
             {
-                if (!model.Id.HasValue) return BadRequest("Please insert the Id in Json, to place the Put");
-                if (!ValidaCNPJ.IsCnpj(model.CNPJ)) return NotFound("CNPJ Inválido");
-                var Empresa = await _repo.GetFuncionarioAsyncById(model.Id.Value);
-                if (Empresa == null) return NotFound();
+                if (!model.Codigo.HasValue) return BadRequest("Please insert the Id in Json, to place the Put");
+                var Funcionario = await _repo.GetFuncionarioAsyncById(model.Codigo.Value);
+                if (Funcionario == null) return NotFound();
 
-                _mapper.Map(model, Empresa);
+                _mapper.Map(model, Funcionario);
 
-                _repo.Update(Empresa);
+                _repo.Update(Funcionario);
 
                 if (await _repo.SaveChangesAsync())
                 {
-                    return Created($"/api/Empresa/{model.Id.Value}", _mapper.Map<EmpresaDto>(Empresa));
+                    return Created($"/api/Funcionario/{model.Codigo.Value}", _mapper.Map<FuncionarioDto>(Funcionario));
                 }
             }
             catch (System.Exception ex)
@@ -142,15 +102,15 @@ namespace Project.WebAPI.Controllers
             return BadRequest();
         }
 
-        [HttpDelete("{EmpresaId}")]
-        public async Task<IActionResult> Delete(int EmpresaId)
+        [HttpDelete("{FuncionarioId}")]
+        public async Task<IActionResult> Delete(int FuncionarioId)
         {
             try
             {
-                var Empresa = await _repo.GetFuncionarioAsyncById(EmpresaId);
-                if (Empresa == null) return NotFound();
+                var Funcionario = await _repo.GetFuncionarioAsyncById(FuncionarioId);
+                if (Funcionario == null) return NotFound();
 
-                _repo.Delete(Empresa);
+                _repo.Delete(Funcionario);
 
                 if (await _repo.SaveChangesAsync())
                 {

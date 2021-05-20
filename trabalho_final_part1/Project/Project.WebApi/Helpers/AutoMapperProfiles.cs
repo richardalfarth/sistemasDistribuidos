@@ -8,7 +8,7 @@ namespace Project.WebAPI.Helpers
     {
         public AutoMapperProfiles()
         {
-            CreateMap<Funcionario,EmpresaDto>().ReverseMap();
+            CreateMap<Funcionario,FuncionarioDto>().ReverseMap();
         }
     }
 }
