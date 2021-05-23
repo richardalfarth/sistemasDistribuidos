@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Net.Http.Headers;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,6 +38,12 @@ namespace Project.WebAPI
             services.AddControllers();
             services.AddScoped<IProjectRepository, ProjectRepository>();
             services.AddControllersWithViews();
+
+            services.AddHttpClient("funcionarioApi", c =>
+            {
+                c.BaseAddress = new Uri(Configuration.GetValue<string>("Endpoints:Url"));
+                c.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            });
 
             services.AddRazorPages();
 

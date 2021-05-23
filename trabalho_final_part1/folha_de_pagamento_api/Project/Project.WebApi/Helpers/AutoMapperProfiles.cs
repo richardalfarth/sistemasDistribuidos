@@ -1,6 +1,5 @@
 using AutoMapper;
 using Project.Domain;
-using Project.WebAPI.Dtos;
 
 namespace Project.WebAPI.Helpers
 {
@@ -9,6 +8,7 @@ namespace Project.WebAPI.Helpers
         public AutoMapperProfiles()
         {
             CreateMap<FolhaSalarial,FolhaSalariaDto>().ReverseMap();
+            CreateMap<Funcionario, FuncionarioDto>().ReverseMap();
         }
     }
 }

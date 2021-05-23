@@ -19,6 +19,9 @@ namespace Project.Domain
         [Required(AllowEmptyStrings = false, ErrorMessage = "O nome da é obrigatório.")]
         public string NomeFuncionario { get; set; }
 
+        [Required]
+        public int HorasTrabalhadas { get; set; }
+
         [Required(ErrorMessage = "Por Favor Informe o Cargo do Funcionário")]
         [MinLength(1)]
         public CargoFuncionario CargoDoFuncionario { get; set; }

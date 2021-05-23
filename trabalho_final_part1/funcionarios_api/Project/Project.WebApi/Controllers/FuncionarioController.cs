@@ -2,8 +2,10 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Project.Domain;
+using Project.Domain.Implementations;
 using Project.Repository;
 using Project.WebAPI.Dtos;
+using System;
 using System.Threading.Tasks;
 
 namespace Project.WebAPI.Controllers
@@ -58,10 +60,10 @@ namespace Project.WebAPI.Controllers
         {
             try
             {
-                if(!FuncionarioValidation.ValidarCPFFuncionario(cpf)){
-                    return this.StatusCode(StatusCodes.Status404InternalServerError, $"CPF não é válido");
+                if(FuncionarioValidation.ValidarCPFFuncionario(cpf) != ""){
+                    return this.StatusCode(StatusCodes.Status404NotFound, $"CPF não é válido");
                 }
-                var funcionarios = await _repo.GetFuncionariosAsyncByCPF(cpf);
+                var funcionarios = await _repo.GetFuncionariosAsyncByCpf(cpf);
                 var results = _mapper.Map<FuncionarioDto>(funcionarios);
                 
                 return Ok(results);

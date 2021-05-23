@@ -1,0 +1,15 @@
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Service\bin\Debug\net5.0\Project.Service.deps.json
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Service\bin\Debug\net5.0\Project.Service.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Service\bin\Debug\net5.0\ref\Project.Service.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Service\bin\Debug\net5.0\Project.Service.pdb
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Service\bin\Debug\net5.0\Project.Domain.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Service\bin\Debug\net5.0\Project.Domain.pdb
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Service\obj\Debug\net5.0\Project.Service.csprojAssemblyReference.cache
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Service\obj\Debug\net5.0\Project.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Service\obj\Debug\net5.0\Project.Service.AssemblyInfoInputs.cache
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Service\obj\Debug\net5.0\Project.Service.AssemblyInfo.cs
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Service\obj\Debug\net5.0\Project.Service.csproj.CoreCompileInputs.cache
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Service\obj\Debug\net5.0\Project.Service.csproj.CopyComplete
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Service\obj\Debug\net5.0\Project.Service.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Service\obj\Debug\net5.0\ref\Project.Service.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Service\obj\Debug\net5.0\Project.Service.pdb

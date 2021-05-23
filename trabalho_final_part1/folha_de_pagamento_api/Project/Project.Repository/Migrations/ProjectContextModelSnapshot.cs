@@ -35,6 +35,9 @@ namespace Project.Repository.Migrations
                     b.Property<int>("FuncionarioID")
                         .HasColumnType("int");
 
+                    b.Property<int>("HorasTrabalhadas")
+                        .HasColumnType("int");
+
                     b.Property<double>("INSS")
                         .HasColumnType("float");
 

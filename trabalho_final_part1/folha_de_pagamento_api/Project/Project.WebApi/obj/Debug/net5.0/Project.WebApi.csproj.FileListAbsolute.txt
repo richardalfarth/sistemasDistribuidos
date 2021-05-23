@@ -980,3 +980,8 @@ C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final
 C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.WebApi\obj\Debug\net5.0\Project.WebApi.xml
 C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.WebApi\obj\Debug\net5.0\Project.WebApi.pdb
 C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.WebApi\obj\Debug\net5.0\Project.WebApi.genruntimeconfig.cache
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.WebApi\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.WebApi\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.WebApi\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.WebApi\bin\Debug\net5.0\Project.Service.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.WebApi\bin\Debug\net5.0\Project.Service.pdb

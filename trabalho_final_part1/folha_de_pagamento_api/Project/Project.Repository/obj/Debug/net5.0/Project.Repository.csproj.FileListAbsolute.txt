@@ -106,3 +106,5 @@ C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final
 C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Repository\obj\Debug\net5.0\ref\Project.Repository.dll
 C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Repository\obj\Debug\net5.0\Project.Repository.pdb
 C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Repository\obj\Debug\net5.0\Project.Repository.genruntimeconfig.cache
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Repository\bin\Debug\net5.0\Project.Service.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\Project\Project.Repository\bin\Debug\net5.0\Project.Service.pdb

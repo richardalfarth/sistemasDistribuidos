@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Project.Domain;
 using Project.Repository;
-using Project.WebAPI.Dtos;
 using System.Threading.Tasks;
 
 namespace Project.WebAPI.Controllers
@@ -30,10 +29,26 @@ namespace Project.WebAPI.Controllers
                 var folhaSalarial = await _repo.GetAllFolhaSalarialAsync();
                 var results = _mapper.Map<FolhaSalariaDto[]>(folhaSalarial);
 
-                return Ok(results);
+                return Ok(folhaSalarial);
             }
             catch (System.Exception ex)
             {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, $"Banco Dados Falhou {ex.Message}");
+            }
+        }
+
+        [HttpPost("CalcularFolhaSalarial")]
+        public async Task<IActionResult> CalcularFolhaSalarial(string cpf, int horasTrabalhadas) 
+        {
+            try
+            {
+                var folhaSalarial = await _repo.CalcularFolhaSalarial(cpf,horasTrabalhadas);
+               // var results = _mapper.Map<FolhaSalariaDto>(folhaSalarial);
+                return Ok(folhaSalarial);
+            }
+            catch (System.Exception ex)
+            {
+
                 return this.StatusCode(StatusCodes.Status500InternalServerError, $"Banco Dados Falhou {ex.Message}");
             }
         }

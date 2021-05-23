@@ -1,17 +1,26 @@
+using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using Project.Domain;
 using Project.Respository;
+using Project.Service.Services;
 
 namespace Project.Repository
 {
     public class ProjectRepository : IProjectRepository
     {
         private readonly ProjectContext _context;
-        public ProjectRepository(ProjectContext context)
+        private readonly IHttpClientFactory _httpClient;
+        private readonly HttpClient _client;
+        public ProjectRepository(ProjectContext context, IHttpClientFactory httpClient)
         {
             _context = context;
+            _httpClient = httpClient;
+            _client = httpClient.CreateClient("funcionarioApi");
         }
 
         //Gerais
@@ -49,5 +58,13 @@ namespace Project.Repository
             .Where(c => c.Codigo == codigo);
             return await query.FirstOrDefaultAsync();
         }
+
+        public async Task<FolhaSalarial> CalcularFolhaSalarial(string cpf, int horasTrabalhadas)
+        {
+            FolhaSalarialService folha = new FolhaSalarialService(_httpClient);
+            var funcionario = await folha.CalcularFolhaSalarialFuncionario(cpf,horasTrabalhadas);
+            return null;
+        }
+       
     }
 }

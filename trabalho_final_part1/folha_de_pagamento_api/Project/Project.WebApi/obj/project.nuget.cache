@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "QXjLC75USGp5E/BmaVbGf1nWSlT9cMGA0pLmxj2TxL6NhE9J76UxzhDKprKpY9XDftBcOTIxwC3Fc8YeVI8W3w==",
+  "dgSpecHash": "D3tH6VrfBvldHLeGWTwE+w+MWQ0k+wOi13Z0zu2d3jZdjIBNlJ6GC8xCGNWYBz8T4T/bl/4qvioCRtuzo5++Ow==",
   "success": true,
   "projectFilePath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\Project\\Project.WebApi\\Project.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TIEDT\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\TIEDT\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\TIEDT\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
+    "C:\\Users\\TIEDT\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.1.0\\fluentvalidation.aspnetcore.10.1.0.nupkg.sha512",
+    "C:\\Users\\TIEDT\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.1.0\\fluentvalidation.dependencyinjectionextensions.10.1.0.nupkg.sha512",
     "C:\\Users\\TIEDT\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\TIEDT\\.nuget\\packages\\mailkit\\2.6.0\\mailkit.2.6.0.nupkg.sha512",
     "C:\\Users\\TIEDT\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.5\\microsoft.aspnetcore.authentication.jwtbearer.5.0.5.nupkg.sha512",
@@ -49,6 +52,7 @@
     "C:\\Users\\TIEDT\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.1.6\\microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\TIEDT\\.nuget\\packages\\microsoft.extensions.http\\5.0.0\\microsoft.extensions.http.5.0.0.nupkg.sha512",
     "C:\\Users\\TIEDT\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.5\\microsoft.extensions.identity.core.5.0.5.nupkg.sha512",
     "C:\\Users\\TIEDT\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.5\\microsoft.extensions.identity.stores.5.0.5.nupkg.sha512",
     "C:\\Users\\TIEDT\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",

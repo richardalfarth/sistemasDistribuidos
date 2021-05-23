@@ -4,41 +4,5 @@
         <name>Project.WebApi</name>
     </assembly>
     <members>
-        <member name="M:Project.WebAPI.Controllers.FuncionarioController.Post(Project.WebAPI.Dtos.FuncionarioDto)">
-             <summary>
-             Create a new Funcionario.
-             </summary>
-             <remarks>
-             Example:
-            
-                 POST /Funcionario
-                 {
-                    "NomeFantasia": "Darth Vader",
-                    "CNPJ": "76360437000106",
-                    "UF": "24",
-                 }
-                 
-            
-             </remarks>
-        </member>
-        <member name="M:Project.WebAPI.Controllers.FuncionarioController.Put(Project.WebAPI.Dtos.FuncionarioDto)">
-             <summary>
-             Put a Funcionario.
-             To find out what is the Id, user the GetAllFuncionarioByUserId controller, then it will list all your employees
-             </summary>
-             <remarks>
-             Example:
-            
-                 PUT /Funcionario
-                 {
-                    "Id": "8",
-                    "NomeFantasia": "Darth Vader",
-                    "CNPJ": "76360437000106",
-                    "UF": "24",
-                 }
-                 
-            
-             </remarks>
-        </member>
     </members>
 </doc>

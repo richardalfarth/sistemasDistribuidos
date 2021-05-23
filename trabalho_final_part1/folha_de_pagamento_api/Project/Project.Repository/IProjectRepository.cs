@@ -13,5 +13,6 @@ namespace Project.Repository
 
         Task<FolhaSalarial[]> GetAllFolhaSalarialAsync();
         Task<FolhaSalarial> GetFolhaSalarialAsyncById(int codigo);
+        Task<FolhaSalarial> CalcularFolhaSalarial(string cpf, int horasTrabalhadas);
     }
 }

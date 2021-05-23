@@ -11,10 +11,12 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Project.Domain\Project.Domain.csproj" />
+    <ProjectReference Include="..\Project.Service\Project.Service.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -9,6 +9,7 @@ namespace Project.WebAPI.Dtos
 
         public int FuncionarioID { get; set; }
 
+        public int HorasTrabalhadas { get; set; }
         public DateTime Competencia { get; set; }
         public string NomeFuncionario { get; set; }
         public CargoFuncionario CargoDoFuncionario { get; set; }
