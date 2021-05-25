@@ -63,7 +63,7 @@ namespace Project.Repository
         {
             FolhaSalarialService folha = new FolhaSalarialService(_httpClient);
             var funcionario = await folha.CalcularFolhaSalarialFuncionario(cpf,horasTrabalhadas);
-            return null;
+            return funcionario;
         }
        
     }

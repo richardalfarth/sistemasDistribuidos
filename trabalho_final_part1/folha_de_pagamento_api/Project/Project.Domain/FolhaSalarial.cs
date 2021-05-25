@@ -38,20 +38,4 @@ namespace Project.Domain
         [Required(ErrorMessage = "Por Favor Informe o IRRF")]
         public double IRRF { get; set; }
     }
-
-    #region
-    public enum CargoFuncionario
-    {
-        Diretor = 1,
-        Gerente,
-        Coordernador,
-        Analista,
-        Desenvolvedor,
-        Suporte,
-        Auxiliar,
-        Estagiario,
-        Cozinheira,
-        Seguranca
-    }
-    #endregion
 }

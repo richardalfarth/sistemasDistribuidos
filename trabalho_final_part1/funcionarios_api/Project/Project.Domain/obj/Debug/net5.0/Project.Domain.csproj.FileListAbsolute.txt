@@ -9,3 +9,4 @@ C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final
 C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\Project\Project.Domain\obj\Debug\net5.0\Project.Domain.dll
 C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\Project\Project.Domain\obj\Debug\net5.0\ref\Project.Domain.dll
 C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\Project\Project.Domain\obj\Debug\net5.0\Project.Domain.pdb
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\Project\Project.Domain\obj\Debug\net5.0\Project.Domain.csprojAssemblyReference.cache
