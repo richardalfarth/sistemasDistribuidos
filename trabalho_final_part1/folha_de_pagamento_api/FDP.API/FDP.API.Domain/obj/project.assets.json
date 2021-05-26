@@ -748,11 +748,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\Project\\FDP.API.Domain\\FDP.API.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\FDP.API\\FDP.API.Domain\\FDP.API.Domain.csproj",
       "projectName": "FDP.API.Domain",
-      "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\Project\\FDP.API.Domain\\FDP.API.Domain.csproj",
+      "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\FDP.API\\FDP.API.Domain\\FDP.API.Domain.csproj",
       "packagesPath": "C:\\Users\\TIEDT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\Project\\FDP.API.Domain\\obj\\",
+      "outputPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\FDP.API\\FDP.API.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

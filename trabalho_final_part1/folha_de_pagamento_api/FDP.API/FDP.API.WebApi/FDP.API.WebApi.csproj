@@ -38,7 +38,6 @@
   <ItemGroup>
     <ProjectReference Include="..\FDP.API.Domain\FDP.API.Domain.csproj" />
     <ProjectReference Include="..\FDP.API.Repository\FDP.API.Repository.csproj" />
-    <ProjectReference Include="..\Project.Repository\FDP.API.Repository.csproj" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>

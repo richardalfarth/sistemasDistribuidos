@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ADbXOuiXmxBCad06hMbF72fj0qVZwO38LcssKOMgJLLK3hsk96wpDt44y9VUSjhKPSVvHlo0igmArfRzjDce6g==",
+  "dgSpecHash": "Wi/AkfUFGJgsOmZKYy27iAqWw5GRcaYHJ52Z/ng9hB+b89ffoN+3NccwSJwS+EVWZAAab1+KGuMZ2rbxRDHe6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\Project\\FDP.API.WebApi\\FDP.API.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\FDP.API\\FDP.API.WebApi\\FDP.API.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TIEDT\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\TIEDT\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

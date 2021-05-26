@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uOjlCIymnZOh0P1oZGrZ/st30mdBDUB5qUMpEO3rZD07BTBKSRYERNAjlufdEsT6t4GjSEB7xqDf8mmTbQ3QLA==",
+  "dgSpecHash": "2QgmCNqAAN9R6LRKNE/1z4TdDzZyGimT4y0y/lmByEpbbkUwogyeflZN90N3F2faQ/De+vKAld/QPiFU4h4v5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\Project\\FDP.API.Repository\\FDP.API.Repository.csproj",
+  "projectFilePath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\FDP.API\\FDP.API.Repository\\FDP.API.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TIEDT\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
     "C:\\Users\\TIEDT\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.1.0\\fluentvalidation.aspnetcore.10.1.0.nupkg.sha512",

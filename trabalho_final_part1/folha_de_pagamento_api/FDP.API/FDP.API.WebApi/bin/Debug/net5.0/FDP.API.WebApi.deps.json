@@ -2644,6 +2644,21 @@
           "FDP.API.Domain.dll": {}
         }
       },
+      "FDP.API.Repository/1.0.0": {
+        "dependencies": {
+          "FDP.API.Domain": "1.0.0",
+          "FDP.API.Service": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5",
+          "Microsoft.Extensions.Http": "5.0.0"
+        },
+        "runtime": {
+          "FDP.API.Repository.dll": {}
+        },
+        "compile": {
+          "FDP.API.Repository.dll": {}
+        }
+      },
       "FDP.API.Service/1.0.0": {
         "dependencies": {
           "FDP.API.Domain": "1.0.0",
@@ -4318,16 +4333,6 @@
           "WindowsBase.dll": {}
         },
         "compileOnly": true
-      },
-      "FDP.API.Repository/1.0.0": {
-        "dependencies": {
-          "FDP.API.Domain": "1.0.0",
-          "FDP.API.Service": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.5",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5",
-          "Microsoft.Extensions.Http": "5.0.0"
-        },
-        "compileOnly": true
       }
     }
   },
@@ -5770,6 +5775,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "FDP.API.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "FDP.API.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -7157,11 +7167,6 @@
     },
     "WindowsBase/4.0.0.0": {
       "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "FDP.API.Repository/1.0.0": {
-      "type": "project",
       "serviceable": false,
       "sha512": ""
     }

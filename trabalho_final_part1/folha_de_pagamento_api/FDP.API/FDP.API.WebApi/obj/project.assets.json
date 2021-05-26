@@ -3266,7 +3266,10 @@
         },
         "runtime": {
           "bin/placeholder/FDP.API.Repository.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "FDP.API.Service/1.0.0": {
         "type": "project",
@@ -10171,8 +10174,8 @@
     },
     "FDP.API.Repository/1.0.0": {
       "type": "project",
-      "path": "../Project.Repository/FDP.API.Repository.csproj",
-      "msbuildProject": "../Project.Repository/FDP.API.Repository.csproj"
+      "path": "../FDP.API.Repository/FDP.API.Repository.csproj",
+      "msbuildProject": "../FDP.API.Repository/FDP.API.Repository.csproj"
     },
     "FDP.API.Service/1.0.0": {
       "type": "project",
@@ -10214,11 +10217,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\Project\\FDP.API.WebApi\\FDP.API.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\FDP.API\\FDP.API.WebApi\\FDP.API.WebApi.csproj",
       "projectName": "FDP.API.WebApi",
-      "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\Project\\FDP.API.WebApi\\FDP.API.WebApi.csproj",
+      "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\FDP.API\\FDP.API.WebApi\\FDP.API.WebApi.csproj",
       "packagesPath": "C:\\Users\\TIEDT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\Project\\FDP.API.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\FDP.API\\FDP.API.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -10240,14 +10243,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\Project\\FDP.API.Domain\\FDP.API.Domain.csproj": {
-              "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\Project\\FDP.API.Domain\\FDP.API.Domain.csproj"
+            "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\FDP.API\\FDP.API.Domain\\FDP.API.Domain.csproj": {
+              "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\FDP.API\\FDP.API.Domain\\FDP.API.Domain.csproj"
             },
-            "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\Project\\FDP.API.Repository\\FDP.API.Repository.csproj": {
-              "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\Project\\FDP.API.Repository\\FDP.API.Repository.csproj"
-            },
-            "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\Project\\Project.Repository\\FDP.API.Repository.csproj": {
-              "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\Project\\Project.Repository\\FDP.API.Repository.csproj"
+            "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\FDP.API\\FDP.API.Repository\\FDP.API.Repository.csproj": {
+              "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\FDP.API\\FDP.API.Repository\\FDP.API.Repository.csproj"
             }
           }
         }
