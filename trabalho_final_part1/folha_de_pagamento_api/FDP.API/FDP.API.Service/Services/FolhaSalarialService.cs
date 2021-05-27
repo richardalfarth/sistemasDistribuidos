@@ -21,6 +21,12 @@ namespace FDP.API.Service.Services
             var calculaFolhaComDescontos = CalcularDescontosFolha(funcionario, horasTrabalhadas);
             return calculaFolhaComDescontos;
         }
+        public async Task<FolhaSalarial> CalcularFolhaSalarialFuncionario(int FuncionarioId, int horasTrabalhadas)
+        {
+            var funcionario = await GetFuncionarioById(FuncionarioId);
+            var calculaFolhaComDescontos = CalcularDescontosFolha(funcionario, horasTrabalhadas);
+            return calculaFolhaComDescontos;
+        }
         protected async Task<Funcionario> GetFuncionarioByCpf(string cpf)
         {
             string montaUrl = $"/funcionarios/GetFuncionarioByCPF?cpf={cpf}";
@@ -29,18 +35,24 @@ namespace FDP.API.Service.Services
             return JsonConvert.DeserializeObject<Funcionario>(result.Result);
         }
 
-        protected FolhaSalarial CalcularDescontosFolha(Funcionario funcionario, int horasTrabalhadas)
+        protected async Task<Funcionario> GetFuncionarioById(int FuncionarioId)
         {
-            var calculaSalarioBruto = CalculaSalarioBrutoHorasTrabalhadas(funcionario.Salario,horasTrabalhadas);
-            var salarioLiquidoINSS = CalculaPercentualDescontoINSS(calculaSalarioBruto);
-            var salarioLiquidoIRRF = CalculaDescontoIRRF(salarioLiquidoINSS);
-            var descontoINSS = calculaSalarioBruto - salarioLiquidoINSS;
-            var descontoIRRF = salarioLiquidoINSS - salarioLiquidoIRRF;
-            var salarioLiquido = (calculaSalarioBruto - descontoINSS - descontoIRRF);
-            return PreencheFolha(funcionario,horasTrabalhadas,calculaSalarioBruto, descontoINSS, descontoIRRF, salarioLiquido);
+            string montaUrl = $"/funcionarios/{FuncionarioId}";
+            var result = _client.GetStringAsync(montaUrl);
+            result.Wait();
+            return JsonConvert.DeserializeObject<Funcionario>(result.Result);
         }
 
-        protected FolhaSalarial PreencheFolha(Funcionario funcionario,int horasTrabalhadas,double salarioBruto,double descontoINSS,double descontoIRRF,double salarioLiquido) 
+        protected FolhaSalarial CalcularDescontosFolha(Funcionario funcionario, int horasTrabalhadas)
+        {
+            var calculaSalarioBruto = CalculaSalarioBrutoHorasTrabalhadas(funcionario.Salario, horasTrabalhadas);
+            var descontoINSS = CalculaPercentualDescontoINSS(calculaSalarioBruto);
+            var descontoIRRF = CalculaDescontoIRRF(calculaSalarioBruto - descontoINSS);
+            var salarioLiquido = (calculaSalarioBruto - descontoINSS - descontoIRRF);
+            return PreencheFolha(funcionario, horasTrabalhadas, calculaSalarioBruto, descontoINSS, descontoIRRF, salarioLiquido);
+        }
+
+        protected FolhaSalarial PreencheFolha(Funcionario funcionario, int horasTrabalhadas, decimal salarioBruto, decimal descontoINSS, decimal descontoIRRF, decimal salarioLiquido)
         {
             FolhaSalarial folha = new FolhaSalarial();
             folha.CargoDoFuncionario = funcionario.CargoDoFuncionario;
@@ -55,37 +67,63 @@ namespace FDP.API.Service.Services
             return folha;
         }
 
-        protected double CalculaSalarioBrutoHorasTrabalhadas(double salarioBruto, int horasTrabalhadas)
+        protected decimal CalculaSalarioBrutoHorasTrabalhadas(decimal salarioBruto, int horasTrabalhadas)
         {
             var valorHora = (salarioBruto / 220);
             return valorHora * horasTrabalhadas;
         }
 
-        protected double CalculaDescontoIRRF(double salario)
+        protected decimal CalculaDescontoIRRF(decimal salario)
         {
-            if (salario < 1.903)
-                return salario;
-            else if (salario > 1.903 && salario < 2.826)
-                return (salario % 7.5) - 0.142;
-            else if (salario > 2.827 && salario < 3.751)
-                return (salario % 15) - 0.354;
-            else if (salario > 3.752 && salario < 4.664)
-                return (salario % 22.5) - 0.636;
+            var sal = Convert.ToDouble(salario);
+            double resultado;
+            if (sal < 1903.98)
+                resultado = sal;
+            else if (sal > 1903.99 && sal < 2826.65)
+                resultado = ((sal * 0.075) - 142);
+            else if (sal > 2826.66 && sal < 3751.05)
+                resultado = ((sal * 0.15) - 354);
+            else if (sal > 3751.06 && sal < 4664.68)
+                resultado = ((sal * 0.225) - 636);
             else
-                return (salario % 27.5) - 0.869;
+                resultado = ((sal * 0.275) - 869);
+
+            return Convert.ToDecimal(resultado);
         }
 
-        protected double CalculaPercentualDescontoINSS(double salario)
+        protected decimal CalculaPercentualDescontoINSS(decimal salario)
         {
-            if (salario < 1.751)
-                return (salario % 8) - 0.189;
-            else if (salario > 1.752 && salario < 2.919)
-                return (salario % 9) - 0.189;
-            else if (salario > 2.920 && salario < 5.839)
-                return (salario % 11) - 0.189;
+            if (salario <= 1100)
+                return CalculaFaixaSalarial(1,salario);
+            else if (salario >= 1101 && salario < 2203)
+                return CalculaFaixaSalarial(2,salario);
+            else if (salario >= 2204 && salario <= 3305)
+                return CalculaFaixaSalarial(3,salario);
             else
-                return (salario - 642);
+                return CalculaFaixaSalarial(4,salario);
         }
 
+        protected decimal CalculaFaixaSalarial(int faixa,decimal salario)
+        {
+            var salarioDouble = Convert.ToDouble(salario);
+            double retorno;
+            switch (faixa)
+            {
+                case 1:
+                    retorno = (salarioDouble * 0.075);
+                    break;
+                case 2:
+                    retorno = ((1100 * 0.075) + ((salarioDouble - 1100.01) * 0.09));
+                    break;
+                case 3:
+                    retorno = ((1100 * 0.075) + (((2203.48 - 1100.01) * 0.09) + (((salarioDouble - 2203.49) * 0.12))));
+                    break;
+                default:
+                    retorno = (((1100 * 0.075) + (((2203.48 - 1100.01) * 0.09)) + (((3305.22 - 2203.49) * 0.12)) + (((salarioDouble - 3305.23) * 0.14))));
+                    break;
+            }
+
+            return Convert.ToDecimal(retorno);
+        }
     }
 }

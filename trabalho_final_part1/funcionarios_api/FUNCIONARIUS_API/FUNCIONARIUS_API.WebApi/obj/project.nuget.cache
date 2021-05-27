@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rjjSzPPRzr4HScxBd+hOuASi3lEetWeXxAF8bcS+Lv+RZIiDqinaAHQlA5BUYDkqLImpusrcu3/pN1UbKSP1vA==",
+  "dgSpecHash": "+DqCfy3+NoTnLoWKwdQlfRON6x/HvvyKRWPmj4XhY9H410S0Xsjd32EKN/Rw04WHyR8MW0zECnyd57JNONjYWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\Project\\FUNCIONARIUS_API.WebApi\\FUNCIONARIUS_API.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\FUNCIONARIUS_API\\FUNCIONARIUS_API.WebApi\\FUNCIONARIUS_API.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TIEDT\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\TIEDT\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

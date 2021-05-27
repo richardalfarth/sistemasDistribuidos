@@ -1,7 +1,7 @@
 ======= Migrations =======
 Dentro da pasta Repository
-dotnet ef --startup-project ../Project.WebApi migrations add init
-dotnet ef --startup-project ../Project.WebApi database update
+dotnet ef --startup-project ../FUNCIONARIUS_API.WebApi migrations add init
+dotnet ef --startup-project ../FUNCIONARIUS_API.WebApi database update
 ==========================
 
 

@@ -748,11 +748,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\Project\\FUNCIONARIUS_API.Domain\\FUNCIONARIUS_API.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\FUNCIONARIUS_API\\FUNCIONARIUS_API.Domain\\FUNCIONARIUS_API.Domain.csproj",
       "projectName": "FUNCIONARIUS_API.Domain",
-      "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\Project\\FUNCIONARIUS_API.Domain\\FUNCIONARIUS_API.Domain.csproj",
+      "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\FUNCIONARIUS_API\\FUNCIONARIUS_API.Domain\\FUNCIONARIUS_API.Domain.csproj",
       "packagesPath": "C:\\Users\\TIEDT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\Project\\FUNCIONARIUS_API.Domain\\obj\\",
+      "outputPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\FUNCIONARIUS_API\\FUNCIONARIUS_API.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

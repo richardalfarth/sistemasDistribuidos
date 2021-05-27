@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Project.Repository.Migrations
+namespace FDP.API.Repository.Migrations
 {
     public partial class init : Migration
     {
@@ -18,10 +18,10 @@ namespace Project.Repository.Migrations
                     NomeFuncionario = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     HorasTrabalhadas = table.Column<int>(type: "int", nullable: false),
                     CargoDoFuncionario = table.Column<int>(type: "int", nullable: false),
-                    SalarioBruto = table.Column<double>(type: "float", nullable: false),
-                    SalarioLiquido = table.Column<double>(type: "float", nullable: false),
-                    INSS = table.Column<double>(type: "float", nullable: false),
-                    IRRF = table.Column<double>(type: "float", nullable: false)
+                    SalarioBruto = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    SalarioLiquido = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    INSS = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    IRRF = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },
                 constraints: table =>
                 {

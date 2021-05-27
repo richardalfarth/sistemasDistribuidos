@@ -9,6 +9,6 @@
 
         public CargoFuncionario CargoDoFuncionario { get; set; }
 
-        public double Salario { get; set; }
+        public decimal Salario { get; set; }
     }
 }

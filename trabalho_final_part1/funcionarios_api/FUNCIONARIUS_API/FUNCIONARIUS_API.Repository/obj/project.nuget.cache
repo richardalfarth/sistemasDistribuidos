@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A2BoITDz/Crd2pMYwnq8qwZM6eWFgguH3Kw9KHrfqMSzVY0MQEWGkolByNtpWBIatdPoGHPvGpUb7Ky6b2ecHw==",
+  "dgSpecHash": "MNY8TT5f0Oleq7J0BxTR4gfD/OzBIs3PDewNrrFjz34haAtNyDB5d1NZQ3DaRJn9/u3GPTyca9upVZxBXOdYAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\Project\\FUNCIONARIUS_API.Repository\\FUNCIONARIUS_API.Repository.csproj",
+  "projectFilePath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\FUNCIONARIUS_API\\FUNCIONARIUS_API.Repository\\FUNCIONARIUS_API.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TIEDT\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\TIEDT\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.5\\microsoft.aspnetcore.cryptography.internal.5.0.5.nupkg.sha512",

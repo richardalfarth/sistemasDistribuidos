@@ -62,9 +62,15 @@ namespace Project.Repository
         public async Task<FolhaSalarial> CalcularFolhaSalarial(string cpf, int horasTrabalhadas)
         {
             FolhaSalarialService folha = new FolhaSalarialService(_httpClient);
-            var funcionario = await folha.CalcularFolhaSalarialFuncionario(cpf,horasTrabalhadas);
-            return funcionario;
+            var folhaSalarial = await folha.CalcularFolhaSalarialFuncionario(cpf,horasTrabalhadas);
+            return folhaSalarial;
         }
-       
+
+        public async Task<FolhaSalarial> CalcularFolhaSalarialFuncionarioById(int FuncionarioId, int horasTrabalhadas)
+        {
+            FolhaSalarialService folha = new FolhaSalarialService(_httpClient);
+            var folhaSalarial = await folha.CalcularFolhaSalarialFuncionario(FuncionarioId, horasTrabalhadas);
+            return folhaSalarial;
+        }
     }
 }

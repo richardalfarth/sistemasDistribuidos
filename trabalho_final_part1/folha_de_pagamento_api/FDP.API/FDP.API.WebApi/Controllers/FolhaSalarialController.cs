@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using FDP.API.Domain;
 using System.Threading.Tasks;
 using Project.Repository;
+using System.Collections.Generic;
 
 namespace FDP.API.WebAPI.Controllers
 {
@@ -43,14 +44,18 @@ namespace FDP.API.WebAPI.Controllers
             try
             {
                 var folhaSalarial = await _repo.CalcularFolhaSalarial(cpf,horasTrabalhadas);
-               // var results = _mapper.Map<FolhaSalariaDto>(folhaSalarial);
-                return Ok(folhaSalarial);
+                _repo.Add(folhaSalarial);
+                if (await _repo.SaveChangesAsync())
+                {
+                    return Created($"/api/FolhaSalarial/", folhaSalarial);
+                }
             }
             catch (System.Exception ex)
             {
 
                 return this.StatusCode(StatusCodes.Status500InternalServerError, $"Banco Dados Falhou {ex.Message}");
             }
+            return BadRequest();
         }
 
         [HttpGet("{FolhaSalarialId}")]
@@ -69,45 +74,50 @@ namespace FDP.API.WebAPI.Controllers
             }
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Post(FolhaSalariaDto model)
-        {
-            try
-            {
-                var folhaSalaria = _mapper.Map<FolhaSalarial>(model);
-                _repo.Add(folhaSalaria);
+        //[HttpPost]
+        //public async Task<IActionResult> Post(FolhaSalariaDto model)
+        //{
+        //    try
+        //    {
+        //        var folhaSalaria = _mapper.Map<FolhaSalarial>(model);
+        //        _repo.Add(folhaSalaria);
 
-                if (await _repo.SaveChangesAsync())
-                {
-                    return Created($"/api/FolhaSalarial/", _mapper.Map<FolhaSalariaDto>(folhaSalaria));
-                }
-            }
-            catch (System.Exception ex)
-            {
-                return this.StatusCode(StatusCodes.Status500InternalServerError,
-                    $"Banco Dados Falhou {ex.Message}");
-            }
+        //        if (await _repo.SaveChangesAsync())
+        //        {
+        //            return Created($"/api/FolhaSalarial/", _mapper.Map<FolhaSalariaDto>(folhaSalaria));
+        //        }
+        //    }
+        //    catch (System.Exception ex)
+        //    {
+        //        return this.StatusCode(StatusCodes.Status500InternalServerError,
+        //            $"Banco Dados Falhou {ex.Message}");
+        //    }
 
-            return BadRequest();
-        }
+        //    return BadRequest();
+        //}
 
         [HttpPut]
         public async Task<IActionResult> Put(FolhaSalariaDto model)
         {
             try
             {
-                if (!model.Codigo.HasValue) return BadRequest("Please insert the Id in Json, to place the Put");
-                var FolhaSalarial = await _repo.GetFolhaSalarialAsyncById(model.Codigo.Value);
-                if (FolhaSalarial == null) return NotFound();
+                if (!model.Codigo.HasValue) return BadRequest("Por Favor Insira o Id");
+                var folhaSalarialAntiga = await _repo.GetFolhaSalarialAsyncById(model.Codigo.Value);
+                if (folhaSalarialAntiga == null) return NotFound();
 
-                _mapper.Map(model, FolhaSalarial);
-
-                _repo.Update(FolhaSalarial);
-
-                if (await _repo.SaveChangesAsync())
+                if(folhaSalarialAntiga.HorasTrabalhadas != model.HorasTrabalhadas)
                 {
-                    return Created($"/api/FolhaSalarial/{model.Codigo.Value}", _mapper.Map<FolhaSalariaDto>(FolhaSalarial));
+                    var folhaSalarial = await _repo.CalcularFolhaSalarialFuncionarioById(model.FuncionarioID, model.HorasTrabalhadas);
+                    folhaSalarial.Codigo = model.Codigo.Value;
+
+                    _repo.Update(folhaSalarial);
+
+                    if (await _repo.SaveChangesAsync())
+                    {
+                        return Created($"/api/FolhaSalarial/{model.Codigo.Value}", _mapper.Map<FolhaSalariaDto>(folhaSalarial));
+                    }
                 }
+
             }
             catch (System.Exception ex)
             {

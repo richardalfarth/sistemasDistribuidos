@@ -22,3 +22,15 @@ C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final
 C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\Project\FUNCIONARIUS_API.Domain\obj\Debug\net5.0\FUNCIONARIUS_API.Domain.dll
 C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\Project\FUNCIONARIUS_API.Domain\obj\Debug\net5.0\ref\FUNCIONARIUS_API.Domain.dll
 C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\Project\FUNCIONARIUS_API.Domain\obj\Debug\net5.0\FUNCIONARIUS_API.Domain.pdb
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\FUNCIONARIUS_API\FUNCIONARIUS_API.Domain\bin\Debug\net5.0\FUNCIONARIUS_API.Domain.deps.json
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\FUNCIONARIUS_API\FUNCIONARIUS_API.Domain\bin\Debug\net5.0\FUNCIONARIUS_API.Domain.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\FUNCIONARIUS_API\FUNCIONARIUS_API.Domain\bin\Debug\net5.0\ref\FUNCIONARIUS_API.Domain.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\FUNCIONARIUS_API\FUNCIONARIUS_API.Domain\bin\Debug\net5.0\FUNCIONARIUS_API.Domain.pdb
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\FUNCIONARIUS_API\FUNCIONARIUS_API.Domain\obj\Debug\net5.0\FUNCIONARIUS_API.Domain.csprojAssemblyReference.cache
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\FUNCIONARIUS_API\FUNCIONARIUS_API.Domain\obj\Debug\net5.0\FUNCIONARIUS_API.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\FUNCIONARIUS_API\FUNCIONARIUS_API.Domain\obj\Debug\net5.0\FUNCIONARIUS_API.Domain.AssemblyInfoInputs.cache
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\FUNCIONARIUS_API\FUNCIONARIUS_API.Domain\obj\Debug\net5.0\FUNCIONARIUS_API.Domain.AssemblyInfo.cs
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\FUNCIONARIUS_API\FUNCIONARIUS_API.Domain\obj\Debug\net5.0\FUNCIONARIUS_API.Domain.csproj.CoreCompileInputs.cache
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\FUNCIONARIUS_API\FUNCIONARIUS_API.Domain\obj\Debug\net5.0\FUNCIONARIUS_API.Domain.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\FUNCIONARIUS_API\FUNCIONARIUS_API.Domain\obj\Debug\net5.0\ref\FUNCIONARIUS_API.Domain.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\funcionarios_api\FUNCIONARIUS_API\FUNCIONARIUS_API.Domain\obj\Debug\net5.0\FUNCIONARIUS_API.Domain.pdb

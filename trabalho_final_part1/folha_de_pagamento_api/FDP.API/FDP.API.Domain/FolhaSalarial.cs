@@ -27,15 +27,15 @@ namespace FDP.API.Domain
         public CargoFuncionario CargoDoFuncionario { get; set; }
 
         [Required(ErrorMessage = "Por Favor Informe o Salário Bruto")]
-        public double SalarioBruto { get; set; }
+        public decimal SalarioBruto { get; set; }
 
         [Required(ErrorMessage = "Por Favor Informe o Salário Liquido")]
-        public double SalarioLiquido { get; set; }
+        public decimal SalarioLiquido { get; set; }
 
         [Required(ErrorMessage = "Por Favor Informe o INSS")]
-        public double INSS { get; set; }
+        public decimal INSS { get; set; }
 
         [Required(ErrorMessage = "Por Favor Informe o IRRF")]
-        public double IRRF { get; set; }
+        public decimal IRRF { get; set; }
     }
 }

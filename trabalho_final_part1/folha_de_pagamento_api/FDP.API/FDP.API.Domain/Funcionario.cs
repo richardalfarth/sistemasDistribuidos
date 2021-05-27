@@ -20,7 +20,7 @@ namespace FDP.API.Domain
         public CargoFuncionario CargoDoFuncionario { get; set; }
 
         [Required(ErrorMessage = "Por Favor Informe o Salário")]
-        public double Salario { get; set; }
+        public decimal Salario { get; set; }
     }
 
     #region
