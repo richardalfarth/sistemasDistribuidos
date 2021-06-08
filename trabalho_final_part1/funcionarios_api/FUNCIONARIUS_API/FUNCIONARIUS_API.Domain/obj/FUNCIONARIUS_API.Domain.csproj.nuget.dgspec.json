@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\FUNCIONARIUS_API\\FUNCIONARIUS_API.Domain\\FUNCIONARIUS_API.Domain.csproj": {}
+    "D:\\Furb\\Sistemas Distribuídos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\FUNCIONARIUS_API\\FUNCIONARIUS_API.Domain\\FUNCIONARIUS_API.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\FUNCIONARIUS_API\\FUNCIONARIUS_API.Domain\\FUNCIONARIUS_API.Domain.csproj": {
+    "D:\\Furb\\Sistemas Distribuídos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\FUNCIONARIUS_API\\FUNCIONARIUS_API.Domain\\FUNCIONARIUS_API.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\FUNCIONARIUS_API\\FUNCIONARIUS_API.Domain\\FUNCIONARIUS_API.Domain.csproj",
+        "projectUniqueName": "D:\\Furb\\Sistemas Distribuídos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\FUNCIONARIUS_API\\FUNCIONARIUS_API.Domain\\FUNCIONARIUS_API.Domain.csproj",
         "projectName": "FUNCIONARIUS_API.Domain",
-        "projectPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\FUNCIONARIUS_API\\FUNCIONARIUS_API.Domain\\FUNCIONARIUS_API.Domain.csproj",
-        "packagesPath": "C:\\Users\\TIEDT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TIEDT\\Desktop\\sistemas distribuidos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\FUNCIONARIUS_API\\FUNCIONARIUS_API.Domain\\obj\\",
+        "projectPath": "D:\\Furb\\Sistemas Distribuídos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\FUNCIONARIUS_API\\FUNCIONARIUS_API.Domain\\FUNCIONARIUS_API.Domain.csproj",
+        "packagesPath": "C:\\Users\\Richard\\.nuget\\packages\\",
+        "outputPath": "D:\\Furb\\Sistemas Distribuídos\\sistemasDistribuidos\\trabalho_final_part1\\funcionarios_api\\FUNCIONARIUS_API\\FUNCIONARIUS_API.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\TIEDT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Richard\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -65,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

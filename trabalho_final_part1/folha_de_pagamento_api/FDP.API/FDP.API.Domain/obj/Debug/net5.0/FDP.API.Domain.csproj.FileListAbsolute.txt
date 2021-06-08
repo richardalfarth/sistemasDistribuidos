@@ -22,3 +22,15 @@ C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final
 C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Domain\obj\Debug\net5.0\FDP.API.Domain.dll
 C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Domain\obj\Debug\net5.0\ref\FDP.API.Domain.dll
 C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Domain\obj\Debug\net5.0\FDP.API.Domain.pdb
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Domain\bin\Debug\net5.0\FDP.API.Domain.deps.json
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Domain\bin\Debug\net5.0\FDP.API.Domain.dll
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Domain\bin\Debug\net5.0\ref\FDP.API.Domain.dll
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Domain\bin\Debug\net5.0\FDP.API.Domain.pdb
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Domain\obj\Debug\net5.0\FDP.API.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Domain\obj\Debug\net5.0\FDP.API.Domain.AssemblyInfoInputs.cache
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Domain\obj\Debug\net5.0\FDP.API.Domain.AssemblyInfo.cs
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Domain\obj\Debug\net5.0\FDP.API.Domain.csproj.CoreCompileInputs.cache
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Domain\obj\Debug\net5.0\FDP.API.Domain.dll
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Domain\obj\Debug\net5.0\ref\FDP.API.Domain.dll
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Domain\obj\Debug\net5.0\FDP.API.Domain.pdb
+D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Domain\obj\Debug\net5.0\FDP.API.Domain.csprojAssemblyReference.cache

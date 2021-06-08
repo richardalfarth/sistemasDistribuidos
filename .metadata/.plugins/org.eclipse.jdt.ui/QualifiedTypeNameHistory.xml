@@ -21,4 +21,9 @@
     <fullyQualifiedTypeName name="java.io.OutputStream"/>
     <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.launcher.Main"/>
+    <fullyQualifiedTypeName name="Alaea.SnrDataFile"/>
+    <fullyQualifiedTypeName name="com.dai.itc.data.SimulationData"/>
+    <fullyQualifiedTypeName name="com.dai.itc.data.Database"/>
+    <fullyQualifiedTypeName name="com.dai.itc.data.SnrDataFile"/>
+    <fullyQualifiedTypeName name="EKRUpdater.EKR"/>
 </qualifiedTypeNameHistroy>
