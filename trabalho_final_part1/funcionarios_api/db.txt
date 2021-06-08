@@ -5,15 +5,3 @@ dotnet ef --startup-project ../FUNCIONARIUS_API.WebApi database update
 ==========================
 
 
-caso professor não tem o sql server ou não está afim de instalar, nós publicamos o backend na azure.... 
-o projeto em si já está apontado para o azure, caso queira alterar é só ir no WebApi e no appsentings.json e descomentar a connection string para o sql server e
-comentar a connection string do azure,claro tem que mudar o usuario e senha e apontar seu banco local...
-
-para rodar o projeto, abrir o cmd e ir para a pasta da WebApi e digitar o comando " dotnet watch run " assim ele irá rodar o backend.
-
-=========================================
-
-no frontend no Empresa.Service também apontamos para o azure, caso queira pegar o backend local, alterar para " https://localhost:5001/empresa" assim ele irá buscar o backend local.
-ah não esquece de dar o npm install no projeto!
-entra na pasta do front, cmd, npm install padrao!
-

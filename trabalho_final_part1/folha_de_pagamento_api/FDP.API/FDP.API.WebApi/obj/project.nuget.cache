@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "d3h4wwYSMMBXq8HlRHPQQlhyDtkjZ3nWjOqBYED9nO9AH2lf8+4XzWYqXXsSoCuPGnQB/aMCoE+7IwTFLb552g==",
+=======
+  "dgSpecHash": "FcpnbmjwswcfgVlxdFLUSKtTxJTr1rqxKr38oMAZDIT1VDxj41x/kgiiS+VJ7O64eTgdMvlQcxVXx743O8/wVw==",
+>>>>>>> 600440c76e114096f28ab3f5282dc48e1cef59b3
   "success": true,
   "projectFilePath": "D:\\Furb\\Sistemas Distribuídos\\sistemasDistribuidos\\trabalho_final_part1\\folha_de_pagamento_api\\FDP.API\\FDP.API.WebApi\\FDP.API.WebApi.csproj",
   "expectedPackageFiles": [
