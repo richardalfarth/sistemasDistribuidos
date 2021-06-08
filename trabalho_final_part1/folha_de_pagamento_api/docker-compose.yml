@@ -1,0 +1,12 @@
+# Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP .NET Core service.
+
+version: '3.4'
+
+services:
+  fdpapiwebapi:
+    image: fdpapiwebapi
+    build:
+      context: .
+      dockerfile: FDP.API/FDP.API.WebApi/Dockerfile
+    ports:
+      - 80:80

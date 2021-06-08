@@ -1,0 +1,12 @@
+# Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP .NET Core service.
+
+version: '3.4'
+
+services:
+  funcionariusapiwebapi:
+    image: funcionariusapiwebapi
+    build:
+      context: .
+      dockerfile: FUNCIONARIUS_API.WebApi/Dockerfile
+    ports:
+      - 5001:5001

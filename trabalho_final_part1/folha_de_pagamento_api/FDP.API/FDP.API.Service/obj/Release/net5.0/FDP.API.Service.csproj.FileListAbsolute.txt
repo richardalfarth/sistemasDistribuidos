@@ -1,0 +1,15 @@
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Service\bin\Release\net5.0\FDP.API.Service.deps.json
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Service\bin\Release\net5.0\FDP.API.Service.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Service\bin\Release\net5.0\ref\FDP.API.Service.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Service\bin\Release\net5.0\FDP.API.Service.pdb
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Service\bin\Release\net5.0\FDP.API.Domain.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Service\bin\Release\net5.0\FDP.API.Domain.pdb
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Service\obj\Release\net5.0\FDP.API.Service.csprojAssemblyReference.cache
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Service\obj\Release\net5.0\FDP.API.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Service\obj\Release\net5.0\FDP.API.Service.AssemblyInfoInputs.cache
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Service\obj\Release\net5.0\FDP.API.Service.AssemblyInfo.cs
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Service\obj\Release\net5.0\FDP.API.Service.csproj.CoreCompileInputs.cache
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Service\obj\Release\net5.0\FDP.API.Service.csproj.CopyComplete
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Service\obj\Release\net5.0\FDP.API.Service.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Service\obj\Release\net5.0\ref\FDP.API.Service.dll
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.Service\obj\Release\net5.0\FDP.API.Service.pdb
