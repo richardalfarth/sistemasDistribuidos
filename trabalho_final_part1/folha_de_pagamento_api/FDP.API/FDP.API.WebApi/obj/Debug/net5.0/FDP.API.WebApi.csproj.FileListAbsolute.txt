@@ -492,3 +492,8 @@ D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho_final_part1\folha_d
 D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.WebApi\bin\Debug\net5.0\dist\FDP.API.WebApi.deps.json
 D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.WebApi\bin\Debug\net5.0\dist\FDP.API.WebApi.runtimeconfig.json
 D:\Furb\Sistemas Distribuídos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.WebApi\obj\Debug\net5.0\FDP.API.WebApi.csprojAssemblyReference.cache
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.WebApi\bin\Debug\net5.0\dist\web.config
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.WebApi\bin\Debug\net5.0\dist\appsettings.Development.json
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.WebApi\bin\Debug\net5.0\dist\appsettings.json
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.WebApi\bin\Debug\net5.0\dist\FDP.API.WebApi.deps.json
+C:\Users\TIEDT\Desktop\sistemas distribuidos\sistemasDistribuidos\trabalho_final_part1\folha_de_pagamento_api\FDP.API\FDP.API.WebApi\bin\Debug\net5.0\dist\FDP.API.WebApi.runtimeconfig.json
