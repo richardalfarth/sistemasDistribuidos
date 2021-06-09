@@ -3266,7 +3266,10 @@
         },
         "runtime": {
           "bin/placeholder/FDP.API.Repository.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "FDP.API.Service/1.0.0": {
         "type": "project",
@@ -3281,7 +3284,10 @@
         },
         "runtime": {
           "bin/placeholder/FDP.API.Service.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },

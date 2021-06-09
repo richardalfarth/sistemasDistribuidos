@@ -1,0 +1,21 @@
+version: '3.9'
+services:
+    fdpapiwebapi:
+        image: fdpapiwebapi
+        build:
+          context: ./folha_de_pagamento_api
+          dockerfile: Dockerfile
+        ports:
+          - 5002:5002    
+    funcionariusapiwebapi:
+        image: funcionariusapiwebapi
+        build:
+          context: ./funcionarios_api/FUNCIONARIUS_API
+          dockerfile: Dockerfile
+        ports:
+          - 5001:5001
+    
+networks:
+    default:
+        external:
+            name: api-network
